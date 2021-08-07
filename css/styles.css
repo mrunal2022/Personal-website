@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 60px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.topcontainer {
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middlecontainer {}
+
+.bottomcontainer {
+  background-color: #66bfbf;
+  padding: 37px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 330px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+#programmer {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+a {
+  color: #11999E;
+}
+.skills-row{
+  width: 50%;
+  margin:100px auto 100px;
+  text-align: left;
+  line-height: 2;
+  font-weight: normal;
+
+}
+.py{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.web{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.btn {
+   background: rgba(61, 246, 218, 0.95);
+   background-image: -webkit-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -moz-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -ms-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -o-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -webkit-gradient(to bottom, rgba(61, 246, 218, 0.95), #26E5D5);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 16px;
+   font-family: Arial;
+
+   font-weight: 100;
+   padding: 15px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin:40px auto;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: rgba(61, 246, 218, 0.95);
+   background-image: -webkit-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -moz-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -ms-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -o-linear-gradient(top, rgba(61, 246, 218, 0.95), #26E5D5);
+   background-image: -webkit-gradient(to bottom, rgba(61, 246, 218, 0.95), #26E5D5);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.program{
+  margin-top: 70px;
+}
+.my-skills{
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+
+  margin:70px auto;
+
+
+}
+a{
+   color: #11999E;
+   margin: 10px 20px;
+   text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+#mySidenav a{
+  position: absolute;
+  position: fixed;
+  right: -19px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 0 5px 5px 0;
+  color: #FDFEFF;
+  padding: 10px 25px;
+  width: 50px;
+  transition: 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
+#mySidenav a:hover{
+  right:0;
+  opacity: 1;
+}
+#about {
+  top: 20px;
+  background-color: #89dbcd;
+  opacity: 0.7;
+  font-weight: bolder;
+}
+
+
+
+#projects {
+  top: 80px;
+  opacity: 0.7;
+
+
+  background-color: #89dbcd;
+  font-weight: bolder;
+}
+
+#contact {
+  top: 140px;
+  background-color: #89dbcd;
+  font-weight: bolder;
+  opacity: 0.7;
+
+
+}
+
+
+
+/********************************styles for project*************************/
+.Projects {
+    margin: 0;
+    padding: 17px;
+    font: 10px 'Montserrat', sans-serif;
+    text-align: left;
+    position: relative;
+}
+.bodyproject{
+  background-color: #CDF0EA;
+
+}
+
+.Projects > h1,
+.individual-projects {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 50px;;
+}
+
+.individual-projects {
+  margin-top: 55px;
+    background: right/contain content-box border-box no-repeat
+        white;
+}
+
+.individual-projects > h2{
+  margin: .2rem;
+  font-size: 29px;
+}
+.individual-projects > p {
+    margin: .2rem;
+    font-size: 20px;
+    justify-content: flex-start;
+    font-family: 'Merriweather', serif;
+}
+#python-project{
+  float: right;
+  margin-left: 30px;
+  width: 5.5%;
+
+}
+#Covid-project{
+  float: right;
+  width: 7%;
+  margin-left: 30px;
+
+}
+
+#android-project{
+  float: right;
+  margin-left: 30px;
+  width: 6%;
+
+}
